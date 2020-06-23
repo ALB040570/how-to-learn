@@ -22,11 +22,12 @@
   align-items: center;
   padding-left: 64px;
 }
+
 .logo {
   width: 182px;
   height: 35px;
-
 }
+
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -57,6 +58,11 @@
 .header__link {
 color: #2f80ed;
 text-decoration: none;
+}
+
+.header__link:hover {
+  background-color: #2f80ed;
+  color: white;
 }
 
 .header__main-illustration {
@@ -221,6 +227,10 @@ DISCRIPTION */
   right: 48px;
 }
 
+.feynman__link:hover {
+  color: #2f80ed;
+}
+
 .feynman__photo {
   width: 867px;
   height: 637px;
@@ -337,6 +347,10 @@ DISCRIPTION */
   font-weight: normal;
   text-decoration: none;
   color: white;
+}
+.footer__column-link:hover {
+  background-color: white;
+  color: #1f1f1f;
 }
 
 .footer__social-icon {
