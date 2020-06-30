@@ -1,0 +1,12 @@
+@import url(../../for_reuse/section-title/section-title.css);
+@import url(../../for_reuse/section-subtitle/section-subtitle.css);
+@import url(../../for_reuse/cards/cards.css);
+.techniques {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
