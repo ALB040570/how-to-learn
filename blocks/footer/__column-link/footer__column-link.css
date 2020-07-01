@@ -5,8 +5,9 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
+  opacity: 1;
 }
 .footer__column-link:hover {
   opacity: .3;
-  transition: opasity 1s linear 2s;
+  transition: opacity 1s linear;
 }
